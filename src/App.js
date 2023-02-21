@@ -1,7 +1,6 @@
 import "./App.css";
 // importing image
 
-import Fruits from "./assets/Fruits.jpg";
 import { Contact } from "./components/Contact";
 import { DarkMode } from "./components/DarkMode";
 import { Footer } from "./components/Footer";

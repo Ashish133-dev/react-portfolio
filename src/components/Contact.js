@@ -18,7 +18,9 @@ export const Contact = () => {
         <div className="email-section flex">
           <p>reach out over email</p>
           <div className="email">
-            <a href="mailto:xyz@gmail.com">upretiashish133@gmail.com</a>
+            <a href="mailto:upretiashish133@gmail.com">
+              upretiashish133@gmail.com
+            </a>
             <div className="send">
               <i className="fa-solid fa-paper-plane"></i>
             </div>
