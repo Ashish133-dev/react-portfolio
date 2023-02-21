@@ -1,9 +1,10 @@
 import React from "react";
 import Fruits from "../assets/Fruits.jpg";
+import Layout from "./Layout";
 
 export const Project = () => {
   return (
-    <>
+    <Layout>
       <section className="section4 flex" id="projects">
         <h1 className="title">My Projects</h1>
 
@@ -40,6 +41,6 @@ export const Project = () => {
           </div>
         </div>
       </section>
-    </>
+    </Layout>
   );
 };

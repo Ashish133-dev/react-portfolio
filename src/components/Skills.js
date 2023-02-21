@@ -1,8 +1,11 @@
 import React from "react";
+import { Info } from "./Info";
+import Layout from "./Layout";
 
 export const Skills = () => {
   return (
-    <>
+    <Layout>
+      <Info />
       <section className="section3 flex" id="skills">
         <div className="skills-container flex">
           <div className="flex">
@@ -22,6 +25,6 @@ export const Skills = () => {
           </div>
         </div>
       </section>
-    </>
+    </Layout>
   );
 };

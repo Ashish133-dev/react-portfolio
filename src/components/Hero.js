@@ -1,10 +1,11 @@
 import React from "react";
 import Ashish from "../assets/Ashish.png";
 import Resume from "../assets/Resume.pdf";
+import Layout from "./Layout";
 
 export const Hero = () => {
   return (
-    <>
+    <Layout>
       <section className="section1 grid" id="home">
         <div className="left">
           <img src={Ashish} alt="" />
@@ -23,6 +24,6 @@ export const Hero = () => {
           </a>
         </div>
       </section>
-    </>
+    </Layout>
   );
 };
