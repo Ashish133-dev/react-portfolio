@@ -1,8 +1,10 @@
 import React from "react";
+import { Info } from "./Info";
 
 export const Skills = () => {
   return (
     <>
+      <Info />
       <section className="section3 flex" id="skills">
         <div className="skills-container flex">
           <div className="flex">
@@ -21,7 +23,7 @@ export const Skills = () => {
             <i className="fa-brands fa-sass"></i> <span>Sass</span>
           </div>
         </div>
-      </section>
+      </section>{" "}
     </>
   );
 };
